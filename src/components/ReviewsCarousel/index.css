@@ -1,0 +1,102 @@
+.reviews-carousel-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+
+.reviews-carousel-heading {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.reviews-carousel-image {
+  height: 130px;
+  width: 130px;
+}
+
+.reviews-carousel-name-button-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.left-arrow {
+  background-color: transparent;
+  border: 0px solid;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.left-arrow-image {
+  height: 30px;
+  width: 30px;
+}
+
+.right-arrow {
+  background-color: transparent;
+  border: 0px solid;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.right-arrow-image {
+  height: 30px;
+  width: 30px;
+}
+
+.username {
+  color: #ffffff;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.company-name {
+  color: #171f46;
+  margin: 0px;
+  font-weight: 400;
+}
+
+.description {
+  color: #171f46;
+  text-align: center;
+  padding: 0px 25px 0px 25px;
+  font-size: 21px;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-carousel-bg-container {
+    justify-content: center;
+  }
+  .reviews-carousel-heading {
+    font-size: 50px;
+  }
+  .reviews-carousel-image {
+    height: 180px;
+    width: 180px;
+  }
+  .username {
+    font-size: 25px;
+  }
+  .right-arrow-image {
+    height: 40px;
+    width: 40px;
+  }
+  .left-arrow-image {
+    height: 40px;
+    width: 40px;
+  }
+  .company-name {
+    font-size: 22px;
+  }
+  .description {
+    font-size: 25px;
+    padding: 0px 150px 0px 150px;
+  }
+}
